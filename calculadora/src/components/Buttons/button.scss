@@ -1,5 +1,11 @@
 $bg-button: #F1F3F4;
+$bg-button-actived: #c5c7c9;
 $border-button: solid 1px #DEE1E6;
+
+$bg-button-operation:  #FF7E01;
+$bg-button-operation-actived:  #FF5E01;
+$border-button-operation:   #FF6E01;
+
 
 .button {
   font-size: 1.4em;
@@ -8,4 +14,26 @@ $border-button: solid 1px #DEE1E6;
   border-left: $border-button;
   border-bottom: $border-button;
   outline: none;
+}
+
+.button:active {
+  background-color: $bg-button-actived;
+}
+
+.button.operation {
+  background-color: $bg-button-operation;
+  border-color: $border-button-operation;
+  color: #FFF
+}
+
+.button.operation:active {
+  background-color: $bg-button-operation-actived;
+}
+
+.button.double {
+  grid-column: span 2;
+}
+
+.button.triple {
+  grid-column: span 3;
 }
