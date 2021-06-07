@@ -1,12 +1,12 @@
 .calculadora {
   width: 15rem;
   height: 21rem;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  background-color: rgba(197, 197, 197, 0.377);
+  background-color: rgba(197, 197, 197, 0.295);
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.13);
 
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  /* grid-template-rows: 48px 48px 48px 48px 48px; */
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
 }
