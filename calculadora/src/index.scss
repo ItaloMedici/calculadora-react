@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Roboto Mono', monospace;;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+}
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
+
+
+body {
+  /*  Colors */
+  $bg-color: #e4e4e4;
+  $dot-color: #c0bebe;
+  
+  /* Dimensions */
+  $dot-size: 2px;
+  $dot-space: 22px;
+  
+  display: flex;
+
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  overflow: hidden;
+
+  background: 
+    linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: 22px 22px; 
+
+  h1 {
+    float: left;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+}

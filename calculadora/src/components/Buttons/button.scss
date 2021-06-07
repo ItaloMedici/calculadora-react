@@ -1,0 +1,11 @@
+$bg-button: #F1F3F4;
+$border-button: solid 1px #DEE1E6;
+
+.button {
+  font-size: 1.4em;
+  background-color: $bg-button;
+  border: none;
+  border-left: $border-button;
+  border-bottom: $border-button;
+  outline: none;
+}
