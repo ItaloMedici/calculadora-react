@@ -37,6 +37,20 @@ body {
     float: left;
     position: absolute;
     top: 1rem;
-    left: 1rem;
+    left: 2.5rem;
+  }
+  
+  span {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+    
+    font-size: 1.1rem;
+    text-align: right;
+    line-height: 170%;
+
+    strong {
+      font-weight: bold;
+    }
   }
 }

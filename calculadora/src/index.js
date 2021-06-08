@@ -8,6 +8,7 @@ ReactDOM.render(
   <div>
     <h1>Calculadora</h1>
     <Calculator />
+    <span>By<br/><strong>Médici</strong></span>
   </div>
   , document.getElementById('root')
 );
